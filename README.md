@@ -1,3 +1,3 @@
 # bit07me
-## Todo sobre el desarrolador
-### Dev: Enrique Abril
+## Todo sobre el desarrolador (describir mas...)
+### Dev: Enrique Abril (contacto...RRSS)
