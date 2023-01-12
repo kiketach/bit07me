@@ -1,3 +1,12 @@
 .name{
     color: blue;
 }
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+.pic{
+    width: 200px;
+}
