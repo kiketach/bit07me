@@ -1,12 +1,18 @@
 .name{
-    color: blue;
+    color: black
 }
 
 .img{
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
+    border-color: black;
 }
 
 .pic{
     width: 200px;
+}
+
+body{
+    background-color: lightgrey;
 }
