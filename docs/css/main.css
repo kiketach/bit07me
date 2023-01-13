@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, sans-serif; 
   padding: 10px;
   background: #f1f1f1;
 }
@@ -11,8 +11,9 @@ body {
 header {
   padding: 30px;
   text-align: center;
-  background: beige;
+  background-color: beige;
 }
+
 
 header h1 {
   font-size: 50px;
@@ -52,7 +53,7 @@ aside {
   padding-left: 20px;
 }
 
-img {
+#foto {
   margin-top: 0%;
   height: 100%;
   width: 100%;
