@@ -19,6 +19,15 @@ header h1 {
   font-size: 50px;
 }
 
+h2, h3{
+  color: #333
+}
+
+.text1, .text{
+  font-family: 'Dancing Script', cursive;
+  
+}
+
 /* Style navbar */
 nav {
   overflow: hidden;
