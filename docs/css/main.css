@@ -1,109 +1,39 @@
-* {
-  box-sizing: border-box;
-}
+ .carousel-inner,
+ .carousel-item,
+ .carousel-item.active {
+   height: 100vh;
+ }
 
-body {
-  font-family: Verdana, sans-serif; 
-  padding: 10px;
-  background: #f1f1f1;
-}
+ .carousel-item:nth-child(1) {
+   background-image: url('../img/banner.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
 
-header {
-  padding: 30px;
-  text-align: center;
-  background-color: beige;
-}
+ h1{
+  padding-top: 20px;
+ }
 
-
-header h1 {
-  font-size: 50px;
-}
-
-h2, h3{
-  color: #333
-}
-
-.text1, .text{
-  font-family: 'Dancing Script', cursive;
-  
-}
-
-/* Style navbar */
-nav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style links */
-nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.contenido {
-  float: left;
-  width: 75%;
-}
-
-aside {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-#foto {
+ .foto {
   margin-top: 0%;
-  height: 100%;
-  width: 100%;
+  height: 70%;
+  width: 70%;
   border-radius: 100%;
+  box-shadow: 25px 25px 25px 2px rgba(32,32,32,0.3);
 }
 
-/* Boxes */
-.card {
-  background-color: lightgray;
-  padding: 20px;
-  margin-top: 20px;
-}
+ footer{
+  padding-bottom: 20px;
+ }
 
-/* Organice footer */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+ /* Height for devices larger than 576px */
+ @media (min-width: 992px) {
+   #introCarousel {
+     margin-top: -58.59px;
+   }
+ }
 
-/* Footer */
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive */
-@media screen and (max-width: 800px) {
-  aside,
-  .contenido {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout  */
-@media screen and (max-width: 400px) {
-  nav a {
-    float: none;
-    width: 100%;
-  }
-}
+ .navbar .nav-link {
+   color: #fff !important;
+ }
