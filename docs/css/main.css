@@ -4,13 +4,16 @@
 
 body {
   font-family: Verdana, sans-serif; 
-
   background: #f1f1f1;
 }
 
 header {
   text-align: center;
-  background-image: url("https://img.freepik.com/premium-photo/css-javascript-html-usage-monitor-closeup-function-source-code-abstract-it-technology-background-software-source-code_372999-1060.jpg?w=2000");
+
+}
+
+.encabezado{
+  background-image: url("https://as2.ftcdn.net/v2/jpg/02/52/20/57/1000_F_252205753_3fDbfVVj6NjCMndiHzb3xCEuHa6wlTEf.jpg");
   background-size: cover;
   height: 100vh;
 
@@ -22,7 +25,7 @@ header h1 {
 }
 
 h2, h3{
-  color: #333
+  color: rgb(10, 4, 19)
 }
 
 .text1, .text{
@@ -30,67 +33,18 @@ h2, h3{
   
 }
 
-/* Style navbar */
-nav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style links */
-nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.contenido {
-  float: left;
-  width: 75%;
-}
-
-aside {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-#foto {
-  margin-top: 0%;
-  height: 100%;
-  width: 100%;
+.foto{
+  margin-top: 20%;
+  height: 80%;
+  width: 80%;
   border-radius: 50%;
-}
-
-/* Boxes */
-.card {
-  background-color: lightgray;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Organice footer */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  box-shadow: 2px 30px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
 }
 
 /* Footer */
 footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  padding: 1.25rem;
 }
 
 /* Responsive */
