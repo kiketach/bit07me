@@ -5,28 +5,27 @@
 
 body {
   font-family: Verdana, sans-serif; 
-  background: #f1f1f1;
 }
 
 header {
   text-align: center;
-
+  
 }
 
 .encabezado{
   background-image: url("https://as2.ftcdn.net/v2/jpg/02/52/20/57/1000_F_252205753_3fDbfVVj6NjCMndiHzb3xCEuHa6wlTEf.jpg");
   background-size: cover;
   height: 100vh;
-
 }
 
 header h1 {
   padding: 1.875rem;
   font-size: 50px;
+  color: white
 }
 
-h2, h3{
-  color: rgb(10, 4, 19)
+h4{
+  color: white
 }
 
 .text1, .text{
